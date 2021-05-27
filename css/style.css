@@ -26,12 +26,13 @@ body {
 /* NAVIGATION */
 
 .navbar-brand {
-    width: 150px;
+    width: 80px;
+    
 }
 
 .navbar-expand-lg {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
     transition: background-color 0.5s ease;
 }
 
@@ -106,7 +107,7 @@ body {
 
 .about_me{
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 .plate_img img{
@@ -156,9 +157,36 @@ body {
 
 /* SERVICES */
 
-.services {
-    background-image: url('../images/hero.jpg');
-    background-size: auto;
+/* .Products{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../images/Paper.jpg');
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.New{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../images/gears.jpg');
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.Equipment{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('../images/bottles.jpg');
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.tape{
+    max-width: 100%;
+    height: auto;
 }
 
 .jumbotron{
@@ -232,3 +260,12 @@ body {
 }
 
 
+
+.contact{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.info{
+    
+}
