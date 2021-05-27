@@ -83,7 +83,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    padding-top: 160px;
+    padding-top: 250px;
 }
 
 .overlay h1{
@@ -91,7 +91,8 @@ body {
     text-shadow: -1px 2px 8px #565758;
     text-shadow: -1px 2px 8px rgba (45,53,65,0.6);
     text-align: center;
-    margin: 0 0 23px;
+    vertical-align: center;
+    /* margin: 0 0 23px; */
     color: #fff;
 }
 
@@ -157,7 +158,15 @@ body {
 
 /* SERVICES */
 
-/* .Products{
+.prodsection{
+    width: 100%;
+    background-image: url('../images/wine.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.services {
     padding-top: 80px;
     padding-bottom: 80px;
     background-image: url('../images/Paper.jpg');
@@ -166,23 +175,6 @@ body {
     background-position: center center;
 }
 
-.New{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-image: url('../images/gears.jpg');
-    background-size: cover;                     
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.Equipment{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-image: url('../images/bottles.jpg');
-    background-size: cover;                     
-    background-repeat: no-repeat;
-    background-position: center center;
-} */
 
 .tape{
     max-width: 100%;
